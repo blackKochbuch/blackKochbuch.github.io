@@ -224,16 +224,6 @@
       document.getElementById(elementId).textContent = text;
     }
 
-    async function loadText(fileId, elementId) {
-      const res = await gapi.client.drive.files.get({ fileId, alt: "media" });
-      document.getElementById(elementId).textContent = res.body;
-    }
-
-    async function loadText(fileId, elementId) {
-      const res = await gapi.client.drive.files.get({ fileId, alt: "media" });
-      document.getElementById(elementId).textContent = res.body;
-    }
-
     loadGapi();
   </script>
 </body>
