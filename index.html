@@ -39,8 +39,7 @@
 <script>
 let tags = [];
 let recipes = [];
-const RECIPES_JSON_ID = "AKfycbxuBgbwEbOMd80O6faDhoNFXfzqK2Jw58pYWUjg8WdnPqrow50CGmjMhCiIqXyXCioW";
-
+  
 // ---------- TAG UI ----------
 function addTag() {
   const input = document.getElementById("keyword");
@@ -63,8 +62,7 @@ function renderTags() {
 }
 
 async function loadRecipesIndex() {
-  const url = `https://script.google.com/macros/s/${RECIPES_JSON_ID}/exec`;
-  const res = await fetch(url);
+  const res = await fetch("recipes.json");
   return res.json();
 }
 
