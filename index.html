@@ -93,7 +93,7 @@ async function searchFiles() {
 
     for (const tag of tags) {
       const t = tag.toLowerCase();
-      const found = r.name.toLowerCase().contains(t) || ingredientsText.toLowerCase().contains(t) || stepsText.toLowerCase().contains(t);
+      const found = r.name.toLowerCase().includes(t) || ingredientsText.toLowerCase().includes(t) || stepsText.toLowerCase().includes(t);
       if (!found) {
         match = false;
         break;
