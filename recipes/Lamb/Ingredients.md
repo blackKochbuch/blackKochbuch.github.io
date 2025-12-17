@@ -1,0 +1,9 @@
+- 8 Lamb chops
+- 2 tsp finely chopped lemon zest
+- 1/8 (unit?) lemon juice or red wine vinegar
+- 2 cloves garlic
+- 1 tsp salt
+- 3 tsp rosemary
+- 1 tsp thyme
+- 2 tbs olive olive
+- 1 tsp pepper

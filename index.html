@@ -20,6 +20,12 @@
 }
 .tag:hover { background-color: #bae6fd; }
 .tag .close-btn { margin-left: 8px; font-weight: bold; }
+.recipe-content pre {
+  white-space: pre-wrap;       /* wrap text instead of overflowing */
+  word-wrap: break-word;       /* break long words if needed */
+  max-width: 100%;             /* don't overflow container */
+  overflow-x: auto;            /* scroll if extremely long line */
+}
 </style>
 </head>
 <body class="bg-gray-100 min-h-screen p-6">
@@ -82,16 +88,22 @@ async function searchFiles() {
 
   for (const r of allRecipes) {
     let match = true;
+    const ingredientsText = await fetchText(r.folder, r.ingredients);
+    const stepsText = await fetchText(r.folder, r.steps);
+
     for (const tag of tags) {
-      const ingredientsText = await fetchText(r.folder, r.ingredients);
-      const stepsText = await fetchText(r.folder, r.steps);
-      const found = r.name.toLowerCase().includes(tag)
-                    || ingredientsText.toLowerCase().includes(tag)
-                    || stepsText.toLowerCase().includes(tag);
-      if (!found) match = false;
+      const t = tag.toLowerCase();
+      const regex = new RegExp(`\\b${tag.toLowerCase}\\b`, "i");
+      const found = regex.test(r.name.toLowerCase()) || regex.test(ingredientsText.toLowerCase()) || regex.test(stepsText.toLowerCase());
+      if (!found) {
+        match = false;
+        break;
+      }
     }
+
     if (match) matches.push(r);
   }
+
   renderResults(matches);
 }
 
@@ -127,15 +139,35 @@ async function toggleRecipe(r, wrapper) {
   const section = document.createElement("div");
   section.className = "recipe-content mt-4";
 
-  let html = `<p><strong>Ingredients:</strong></p><pre class="bg-gray-100 p-2 rounded" id="ing-${r.folder}"></pre>`;
-  html += `<p class="mt-2"><strong>Steps:</strong></p><pre class="bg-gray-100 p-2 rounded" id="steps-${r.folder}"></pre>`;
-  section.innerHTML = html;
+  let html = "";
 
+  // Ingredients (only if exists)
+  if (r.ingredients) {
+    html += `<p><strong>Ingredients:</strong></p>
+             <pre class="bg-gray-100 p-2 rounded" id="ing-${r.folder.replace(/\//g,'-')}"></pre>`;
+  }
+
+  // Steps (only if exists)
+  if (r.steps) {
+    html += `<p class="mt-2"><strong>Steps:</strong></p>
+             <pre class="bg-gray-100 p-2 rounded" id="steps-${r.folder.replace(/\//g,'-')}"></pre>`;
+  }
+
+  section.innerHTML = html;
   wrapper.appendChild(section);
 
-  document.getElementById(`ing-${r.folder}`).textContent = await fetchText(r.folder, r.ingredients);
-  document.getElementById(`steps-${r.folder}`).textContent = await fetchText(r.folder, r.steps);
+  // Load text only if file exists
+  if (r.ingredients) {
+    const text = await fetchText(r.folder, r.ingredients);
+    document.getElementById(`ing-${r.folder.replace(/\//g,'-')}`).textContent = text;
+  }
 
+  if (r.steps) {
+    const text = await fetchText(r.folder, r.steps);
+    document.getElementById(`steps-${r.folder.replace(/\//g,'-')}`).textContent = text;
+  }
+
+  // Append images
   if (r.images && r.images.length) {
     r.images.forEach(imgFile => {
       const img = document.createElement("img");
