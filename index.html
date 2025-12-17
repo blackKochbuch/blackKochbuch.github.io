@@ -83,9 +83,11 @@ function renderTags() {
 
 async function searchFiles() {
   const results = document.getElementById("results");
+  const status = document.getElementById("searchStatus");
   results.innerHTML = "Searching...";
   const allRecipes = await loadRecipes();
   const matches = [];
+  let processed = 0;
 
   for (const r of allRecipes) {
     processed++;
