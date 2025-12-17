@@ -84,35 +84,49 @@ function renderTags() {
 async function searchFiles() {
   const results = document.getElementById("results");
   const status = document.getElementById("searchStatus");
-  results.innerHTML = "Searching...";
+  results.innerHTML = "";
+  status.textContent = "Searching...";
+
   const allRecipes = await loadRecipes();
   const matches = [];
-  let processed = 0;
 
-  for (const r of allRecipes) {
-    processed++;
-    // Update status each iteration
-    status.textContent = `Searched ${processed} of ${allRecipes.length} files`;
+  // Prepare all fetch promises first
+  const fetchPromises = allRecipes.map(async (r, index) => {
+    let folderMatches = true;
 
-    let match = true;
-    const ingredientsText = r.ingredients ? await fetchText(r.folder, r.ingredients) : "";
-    const stepsText = r.steps ? await fetchText(r.folder, r.steps) : "";
+    // Fetch ingredients and steps in parallel
+    const [ingredientsText, stepsText] = await Promise.all([
+      r.ingredients ? fetchText(r.folder, r.ingredients) : "",
+      r.steps ? fetchText(r.folder, r.steps) : ""
+    ]);
 
+    // Check all tags
     for (const tag of tags) {
       const t = tag.toLowerCase();
-      const found = r.name.toLowerCase().includes(t) || ingredientsText.toLowerCase().includes(t) || stepsText.toLowerCase().includes(t);
+      const found = r.name.toLowerCase().includes(t)
+                 || ingredientsText.toLowerCase().includes(t)
+                 || stepsText.toLowerCase().includes(t);
       if (!found) {
-        match = false;
+        folderMatches = false;
         break;
       }
     }
 
-    if (match) matches.push(r);
-  }
+    // Update progress (UI can still repaint)
+    status.textContent = `Searched ${index + 1} of ${allRecipes.length} files`;
 
-  status.textContent = `Searched complete`;
+    if (folderMatches) return r;
+    return null;
+  });
+
+  // Wait for all to finish
+  const resultsArray = await Promise.all(fetchPromises);
+  resultsArray.forEach(r => { if (r) matches.push(r); });
+
+  status.textContent = `Search complete: ${matches.length} matches found`;
   renderResults(matches);
 }
+
 
 async function fetchText(folder, filename) {
   const url = `recipes/${folder}/${filename}`;
