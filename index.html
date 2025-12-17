@@ -39,6 +39,7 @@
 <div id="tagContainer" class="flex flex-wrap mb-6"></div>
 
 <button onclick="searchFiles()" class="px-4 py-2 bg-blue-600 text-white rounded">Search</button>
+<div id="searchStatus" class="mb-4 text-gray-600"></div>
 
 <h2 class="text-2xl font-semibold mt-8">Results</h2>
 <div id="results" class="mt-4 space-y-6"></div>
@@ -87,9 +88,13 @@ async function searchFiles() {
   const matches = [];
 
   for (const r of allRecipes) {
+    processed++;
+    // Update status each iteration
+    status.textContent = `Searched ${processed} of ${allRecipes.length} files`;
+
     let match = true;
-    const ingredientsText = await fetchText(r.folder, r.ingredients);
-    const stepsText = await fetchText(r.folder, r.steps);
+    const ingredientsText = r.ingredients ? await fetchText(r.folder, r.ingredients) : "";
+    const stepsText = r.steps ? await fetchText(r.folder, r.steps) : "";
 
     for (const tag of tags) {
       const t = tag.toLowerCase();
@@ -103,6 +108,7 @@ async function searchFiles() {
     if (match) matches.push(r);
   }
 
+  status.textContent = `Searched complete`;
   renderResults(matches);
 }
 
