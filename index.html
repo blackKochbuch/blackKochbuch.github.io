@@ -93,8 +93,7 @@ async function searchFiles() {
 
     for (const tag of tags) {
       const t = tag.toLowerCase();
-      const regex = new RegExp(`\\b${tag.toLowerCase}\\b`, "i");
-      const found = regex.test(r.name.toLowerCase()) || regex.test(ingredientsText.toLowerCase()) || regex.test(stepsText.toLowerCase());
+      const found = r.name.toLowerCase().contains(t) || ingredientsText.toLowerCase().contains(t) || stepsText.toLowerCase().contains(t);
       if (!found) {
         match = false;
         break;
@@ -157,7 +156,7 @@ async function toggleRecipe(r, wrapper) {
   wrapper.appendChild(section);
 
   // Load text only if file exists
-  if (r.ingredients) {
+  if (r.ingredients && r.ingredients != 'null') {
     const text = await fetchText(r.folder, r.ingredients);
     document.getElementById(`ing-${r.folder.replace(/\//g,'-')}`).textContent = text;
   }
