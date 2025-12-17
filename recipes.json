@@ -28,8 +28,8 @@
     "images": []
   },
   {
-    "name": "Anna_s Bread",
-    "folder": "Baking/Anna_s Bread",
+    "name": "Annas Bread",
+    "folder": "Baking/Annas Bread",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
@@ -115,8 +115,8 @@
     ]
   },
   {
-    "name": "Julian_s Donuts",
-    "folder": "Baking/Julian_s Donuts",
+    "name": "Julians Donuts",
+    "folder": "Baking/Julians Donuts",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -166,8 +166,8 @@
     "images": []
   },
   {
-    "name": "Rita_s Muesli",
-    "folder": "Baking/Rita_s Muesli",
+    "name": "Ritas Muesli",
+    "folder": "Baking/Ritas Muesli",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -221,8 +221,8 @@
     "images": []
   },
   {
-    "name": "grilled",
-    "folder": "Beef/grilled",
+    "name": "Grilled Steak",
+    "folder": "Beef/Grilled Steak",
     "ingredients": null,
     "steps": "Steps.md",
     "images": []
@@ -253,8 +253,8 @@
     ]
   },
   {
-    "name": "Pimiento, mushroom noodels",
-    "folder": "Beef/Pimiento, mushroom noodels",
+    "name": "Pimiento Mushroom Noodles",
+    "folder": "Beef/Pimiento Mushroom Noodles",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -272,15 +272,15 @@
     ]
   },
   {
-    "name": "veal piccata",
-    "folder": "Beef/veal piccata",
+    "name": "Veal Piccata",
+    "folder": "Beef/Veal Piccata",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
   },
   {
-    "name": "veal tenderloin",
-    "folder": "Beef/veal tenderloin",
+    "name": "Veal Tenderloin",
+    "folder": "Beef/Veal Tenderloin",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
@@ -318,8 +318,8 @@
     ]
   },
   {
-    "name": "Honey mustard bbq chicken",
-    "folder": "Chicken/Honey mustard bbq chicken",
+    "name": "Honey Mustard BBQ Chicken",
+    "folder": "Chicken/Honey Mustard BBQ Chicken",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -327,15 +327,15 @@
     ]
   },
   {
-    "name": "Lettuce wraps",
-    "folder": "Chicken/Lettuce wraps",
+    "name": "Lettuce Wraps",
+    "folder": "Chicken/Lettuce Wraps",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
   },
   {
-    "name": "Mayo Käse chicken",
-    "folder": "Chicken/Mayo Käse chicken",
+    "name": "Mayo Käse Chicken",
+    "folder": "Chicken/Mayo Käse Chicken",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
@@ -351,8 +351,8 @@
     ]
   },
   {
-    "name": "One pan tuscan chicken",
-    "folder": "Chicken/One pan tuscan chicken",
+    "name": "One Pan Tuscan Chicken",
+    "folder": "Chicken/One Pan Tuscan Chicken",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -474,8 +474,8 @@
     ]
   },
   {
-    "name": "grilled salmon",
-    "folder": "Fish/grilled salmon",
+    "name": "Grilled Salmon",
+    "folder": "Fish/Grilled Salmon",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
@@ -497,15 +497,15 @@
     "images": []
   },
   {
-    "name": "mackerel, mediterranean oven roasted spanish",
-    "folder": "Fish/mackerel, mediterranean oven roasted spanish",
+    "name": "Maple Glaze Steelhead Trout",
+    "folder": "Fish/Maple Glaze Steelhead Trout",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
   },
   {
-    "name": "Maple Glaze Steelhead Trout",
-    "folder": "Fish/Maple Glaze Steelhead Trout",
+    "name": "Mediterranean Oven Roasted Mackerel",
+    "folder": "Fish/Mediterranean Oven Roasted Mackerel",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
@@ -556,8 +556,8 @@
     ]
   },
   {
-    "name": "Snapper curry",
-    "folder": "Fish/Snapper curry",
+    "name": "Snapper Curry",
+    "folder": "Fish/Snapper Curry",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -571,6 +571,15 @@
     "steps": "Steps.md",
     "images": [
       "ScreenShot2022-03-26at92845PM.png"
+    ]
+  },
+  {
+    "name": "Lamb",
+    "folder": "Lamb",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Pasted Graphic 3.jpg"
     ]
   },
   {
@@ -613,8 +622,8 @@
     ]
   },
   {
-    "name": "Pepper noodles with calamari",
-    "folder": "Pasta/Pepper noodles with calamari",
+    "name": "Pepper Noodles with Calamari",
+    "folder": "Pasta/Pepper Noodles with Calamari",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -631,8 +640,8 @@
     ]
   },
   {
-    "name": "sausage noodles",
-    "folder": "Pasta/sausage noodles",
+    "name": "Sausage Noodles",
+    "folder": "Pasta/Sausage Noodles",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -699,8 +708,8 @@
     ]
   },
   {
-    "name": "CROCK POT NORMANDY PORK WITH APPLES, SHALLOTS & CIDER",
-    "folder": "Pork/CROCK POT NORMANDY PORK WITH APPLES, SHALLOTS & CIDER",
+    "name": "Crock Pot Normandy Pork with Apples, Shallots & Cider",
+    "folder": "Pork/Crock Pot Normandy Pork with Apples, Shallots & Cider",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
@@ -724,8 +733,8 @@
     ]
   },
   {
-    "name": "pork tenderloin",
-    "folder": "Pork/pork tenderloin",
+    "name": "Pork Tenderloin",
+    "folder": "Pork/Pork Tenderloin",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -733,17 +742,8 @@
     ]
   },
   {
-    "name": "Pork tenderloin-1",
-    "folder": "Pork/Pork tenderloin-1",
-    "ingredients": null,
-    "steps": "steps.md",
-    "images": [
-      "Screenshot2024-01-29at11530PM.png"
-    ]
-  },
-  {
-    "name": "sausage noodles",
-    "folder": "Pork/sausage noodles",
+    "name": "Sausage Noodles",
+    "folder": "Pork/Sausage Noodles",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -751,8 +751,8 @@
     ]
   },
   {
-    "name": "sweet and sour ribs",
-    "folder": "Pork/sweet and sour ribs",
+    "name": "Sweet and Sour Ribs",
+    "folder": "Pork/Sweet and Sour Ribs",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -785,8 +785,8 @@
     "images": []
   },
   {
-    "name": "non stir risotto",
-    "folder": "Rice/non stir risotto",
+    "name": "Non Stir Risotto",
+    "folder": "Rice/Non Stir Risotto",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
@@ -799,15 +799,15 @@
     "images": []
   },
   {
-    "name": "risotto",
-    "folder": "Rice/risotto",
+    "name": "Risotto",
+    "folder": "Rice/Risotto",
     "ingredients": "Ingredients.md",
     "steps": "steps.md",
     "images": []
   },
   {
-    "name": "Avocado shrimp salad",
-    "folder": "Salads/Avocado shrimp salad",
+    "name": "Avocado Shrimp Salad",
+    "folder": "Salads/Avocado Shrimp Salad",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -815,8 +815,8 @@
     ]
   },
   {
-    "name": "corn, feta salad",
-    "folder": "Salads/corn, feta salad",
+    "name": "Corn, Feta Salad",
+    "folder": "Salads/Corn, Feta Salad",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -824,22 +824,22 @@
     ]
   },
   {
-    "name": "Salad wraps",
-    "folder": "Salads/Salad wraps",
+    "name": "Salad Wraps",
+    "folder": "Salads/Salad Wraps",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
   },
   {
-    "name": "Thai inspired",
-    "folder": "Salads/Thai inspired",
+    "name": "Thai Inspired",
+    "folder": "Salads/Thai Inspired",
     "ingredients": "Ingredients.md",
     "steps": null,
     "images": []
   },
   {
-    "name": "Tomato salad",
-    "folder": "Salads/Tomato salad",
+    "name": "Tomato Salad",
+    "folder": "Salads/Tomato Salad",
     "ingredients": null,
     "steps": "steps.md",
     "images": [
@@ -854,8 +854,8 @@
     "images": []
   },
   {
-    "name": "Kashka bademjan",
-    "folder": "Sauces/Kashka bademjan",
+    "name": "Kashk e Bademjan",
+    "folder": "Sauces/Kashk e Bademjan",
     "ingredients": "Ingredients.md",
     "steps": null,
     "images": []
@@ -906,8 +906,8 @@
     ]
   },
   {
-    "name": "broccolini",
-    "folder": "Veggies/broccolini",
+    "name": "Broccolini",
+    "folder": "Veggies/Broccolini",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -924,15 +924,15 @@
     ]
   },
   {
-    "name": "Crunchy parmesan potato wedges",
-    "folder": "Veggies/Crunchy parmesan potato wedges",
+    "name": "Crunchy Parmesan Potato Wedges",
+    "folder": "Veggies/Crunchy Parmesan Potato Wedges",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
   },
   {
-    "name": "half scallopped potatoes",
-    "folder": "Veggies/half scallopped potatoes",
+    "name": "Half Scallopped Potatoes",
+    "folder": "Veggies/Half Scallopped Potatoes",
     "ingredients": "Ingredients.md",
     "steps": null,
     "images": [
@@ -941,8 +941,8 @@
     ]
   },
   {
-    "name": "Honey glazed carrots",
-    "folder": "Veggies/Honey glazed carrots",
+    "name": "Honey Glazed Carrots",
+    "folder": "Veggies/Honey Glazed Carrots",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -950,8 +950,8 @@
     ]
   },
   {
-    "name": "mushroom sandwich",
-    "folder": "Veggies/mushroom sandwich",
+    "name": "Mushroom Sandwich",
+    "folder": "Veggies/Mushroom Sandwich",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
@@ -975,22 +975,22 @@
     "images": []
   },
   {
-    "name": "plantain casserole",
-    "folder": "Veggies/plantain casserole",
+    "name": "Plantain Casserole",
+    "folder": "Veggies/Plantain Casserole",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
   },
   {
-    "name": "Potato gratin",
-    "folder": "Veggies/Potato gratin",
+    "name": "Potato Gratin",
+    "folder": "Veggies/Potato Gratin",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
   },
   {
-    "name": "red beets",
-    "folder": "Veggies/red beets",
+    "name": "Red Beets",
+    "folder": "Veggies/Red Beets",
     "ingredients": "Ingredients.md",
     "steps": "steps.md",
     "images": [
@@ -998,8 +998,8 @@
     ]
   },
   {
-    "name": "Sweet potato with Pecan Feta Date Crumble",
-    "folder": "Veggies/Sweet potato with Pecan Feta Date Crumble",
+    "name": "Sweet Potato with Pecan Feta Date Crumble",
+    "folder": "Veggies/Sweet Potato with Pecan Feta Date Crumble",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": [
