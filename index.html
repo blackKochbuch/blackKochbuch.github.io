@@ -14,19 +14,13 @@
       border-radius: 9999px;
       padding: 6px 10px;
       margin: 4px;
-      font-size: 0.9rem;
       cursor: pointer;
-      transition: background 0.2s;
     }
-    .tag:hover {
-      background-color: #bae6fd;
-    }
-    .tag .close-btn {
-      margin-left: 8px;
-      font-weight: bold;
-    }
+    .tag:hover { background-color: #bae6fd; }
+    .close-btn { margin-left: 8px; font-weight: bold; }
   </style>
 </head>
+
 <body class="bg-gray-100 min-h-screen p-6">
   <h1 class="text-3xl font-bold mb-6">Black Familie Kochbuch</h1>
 
@@ -42,190 +36,133 @@
   <h2 class="text-2xl font-semibold mt-8">Results</h2>
   <div id="results" class="mt-4 space-y-6"></div>
 
-  <script src="https://apis.google.com/js/api.js"></script>
-  <script>
-    const CLIENT_ID = "859780169804-foo7ue9l9ool6qn8onvtlokgl1uusm5h.apps.googleusercontent.com";
-    const API_KEY = "AIzaSyC9LI_v1TGciLjP1BpxAO4eVwbybYkdWFE";
-    const FOLDER_ID = "1ZU7JSlnWCo4jAk8K6s5GxV07QNB0jABj";
-    const SCOPES = "https://www.googleapis.com/auth/drive.readonly";
+<script>
+let tags = [];
+let recipes = [];
+const RECIPES_JSON_ID = "1-lMSlgBPvCBmKB8GnCSWXn7r9WTsKTIF";
 
-    let tags = [];
+// ---------- TAG UI ----------
+function addTag() {
+  const input = document.getElementById("keyword");
+  if (!input.value.trim()) return;
+  tags.push(input.value.trim().toLowerCase());
+  input.value = "";
+  renderTags();
+}
 
-    function loadGapi() { gapi.load("client:auth2", initClient); }
+function renderTags() {
+  const c = document.getElementById("tagContainer");
+  c.innerHTML = "";
+  tags.forEach((t, i) => {
+    const s = document.createElement("span");
+    s.className = "tag";
+    s.innerHTML = `${t} <span class="close-btn">✕</span>`;
+    s.onclick = () => { tags.splice(i, 1); renderTags(); };
+    c.appendChild(s);
+  });
+}
 
-    function initClient() {
-      gapi.client.init({
-        apiKey: API_KEY,
-        clientId: CLIENT_ID,
-        scope: SCOPES,
-        discoveryDocs: ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"],
-      });
+async function loadRecipesIndex() {
+  const url = `https://drive.google.com/uc?export=download&id=${RECIPES_JSON_ID}`;
+  const res = await fetch(url);
+  return res.json();
+}
+
+// ---------- SEARCH ----------
+async function searchFiles() {
+  const results = document.getElementById("results");
+  results.textContent = "Searching…";
+
+  if (recipes.length === 0) {
+    recipes = await loadRecipesIndex();
+  }
+
+  const matches = [];
+
+  for (const r of recipes) {
+    let match = true;
+
+    for (const tag of tags) {
+      const found =
+        r.name.toLowerCase().includes(tag) ||
+        await fileContains(r.ingredients, tag) ||
+        await fileContains(r.steps, tag);
+
+      if (!found) match = false;
     }
 
-    function addTag() {
-      const input = document.getElementById("keyword");
-      const value = input.value.trim();
-      if (!value) return;
-      tags.push(value);
-      input.value = "";
-      renderTags();
-    }
+    if (match) matches.push(r);
+  }
 
-    function removeTag(index) {
-      tags.splice(index, 1);
-      renderTags();
-    }
+  renderResults(matches);
+}
 
-    function renderTags() {
-      const container = document.getElementById("tagContainer");
-      container.innerHTML = "";
-      tags.forEach((tag, i) => {
-        const span = document.createElement("span");
-        span.className = "tag";
-        span.innerHTML = `${tag} <span class='close-btn'>✕<\/span>`;
-        span.onclick = () => removeTag(i);
-        container.appendChild(span);
-      });
-    }
+// ---------- FETCH HELPERS ----------
+async function fileContains(fileId, tag) {
+  if (!fileId) return false;
+  const text = await fetchText(fileId);
+  return text.toLowerCase().includes(tag);
+}
 
-    async function searchFiles() {
-      const results = document.getElementById("results");
-      results.innerHTML = "Searching...";
+async function fetchText(fileId) {
+  const url = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  const res = await fetch(url);
+  return res.text();
+}
 
-      if (!gapi.auth2.getAuthInstance().isSignedIn.get()) {
-        await gapi.auth2.getAuthInstance().signIn();
-      }
+// ---------- RENDER ----------
+function renderResults(matches) {
+  const c = document.getElementById("results");
+  c.innerHTML = "";
 
-      const folders = await getAllFolders(FOLDER_ID);
-      const matches = [];
+  if (!matches.length) {
+    c.textContent = "No matches found.";
+    return;
+  }
 
-      for (const folder of folders) {
-        const files = await getFilesInFolder(folder.id);
-        const ingredients = files.find(f => f.name === "Ingredients.md");
-        const images = files.filter(f => f.name.endsWith(".jpeg") || f.name.endsWith(".jpg") || f.name.endsWith(".png"));
-        const steps = files.find(f => f.name === "Steps.md");
+  matches.forEach(r => {
+    const w = document.createElement("div");
+    w.className = "p-4 bg-white shadow rounded";
 
-        // Folder may contain either or both markdown files
-        if (ingredients || steps) {
-          let folderMatches = true;
-          for (const tag of tags) {
-            const tagFound = await searchTagInFiles([ingredients, steps], tag, folder.name);
-            if (!tagFound) folderMatches = false;
-          }
-          if (folderMatches) matches.push({ folder, ingredients, steps, images });
-        }
-      }
+    const h = document.createElement("h3");
+    h.className = "text-xl font-bold cursor-pointer";
+    h.textContent = r.name;
+    h.onclick = () => toggleRecipe(r, w);
 
-      renderResults(matches);
-    }
+    w.appendChild(h);
+    c.appendChild(w);
+  });
+}
 
-    async function getAllFolders(rootId) {
-      const res = await gapi.client.drive.files.list({
-        q: `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder'`,
-        fields: "files(id, name)",
-      });
-      let folders = res.result.files;
-      for (const folder of res.result.files) {
-        folders = folders.concat(await getAllFolders(folder.id));
-      }
-      return folders;
-    }
+async function toggleRecipe(r, wrapper) {
+  const existing = wrapper.querySelector(".recipe-content");
+  if (existing) return existing.remove();
 
-    async function getFilesInFolder(folderId) {
-      const res = await gapi.client.drive.files.list({
-        q: `'${folderId}' in parents`,
-        fields: "files(id, name, mimeType)",
-      });
-      return res.result.files;
-    }
+  const d = document.createElement("div");
+  d.className = "recipe-content mt-4";
 
-    async function searchTagInFiles(files, tag, folderName = "") {
-      // Check folder name first
-      if (folderName.toLowerCase().includes(tag.toLowerCase())) return true;
+  d.innerHTML = `
+    <a class="text-blue-600 underline" target="_blank"
+       href="https://drive.google.com/drive/folders/${r.folderId}">
+      Open folder in Drive
+    </a>
 
-      // Otherwise check file contents
-      for (const file of files) {
-        const res = await gapi.client.drive.files.get({ fileId: file.id, alt: "media" });
-        if (res.body.toLowerCase().includes(tag.toLowerCase())) return true;
-      }
-      return false;
-    }
+    ${r.ingredients ? `<h4 class="mt-4 font-bold">Ingredients</h4><pre class="bg-gray-100 p-2 rounded" id="ing"></pre>` : ""}
+    ${r.steps ? `<h4 class="mt-4 font-bold">Steps</h4><pre class="bg-gray-100 p-2 rounded" id="steps"></pre>` : ""}
+  `;
 
-    async function renderResults(matches) {
-      const container = document.getElementById("results");
-      container.innerHTML = "";
+  wrapper.appendChild(d);
 
-      if (matches.length === 0) {
-        container.textContent = "No matches found.";
-        return;
-      }
+  if (r.ingredients) document.getElementById("ing").textContent = await fetchText(r.ingredients);
+  if (r.steps) document.getElementById("steps").textContent = await fetchText(r.steps);
 
-      for (const m of matches) {
-        const wrapper = document.createElement("div");
-        wrapper.className = "p-4 bg-white shadow rounded";
-
-        const title = document.createElement("h3");
-        title.className = "text-xl font-bold mb-2 cursor-pointer";
-        title.textContent = m.folder.name;
-        title.onclick = () => toggleRecipe(m, wrapper);
-
-        wrapper.appendChild(title);
-        container.appendChild(wrapper);
-      }
-    }
-
-    async function toggleRecipe(m, wrapper) {
-      // If already expanded, collapse
-      const existing = wrapper.querySelector('.recipe-content');
-      if (existing) {
-        existing.remove();
-        return;
-      }
-
-      const section = document.createElement("div");
-      section.className = "recipe-content mt-4";
-
-      let html = `<a class='text-blue-600 underline' href="https://drive.google.com/drive/folders/${m.folder.id}" target="_blank">Open folder in Drive</a>`;
-
-      if (m.ingredients) {
-        html += `<p class='mt-4'><strong>Ingredients:</strong></p>
-                 <pre id="ing-${m.ingredients.id}" class="bg-gray-100 p-2 rounded"></pre>`;
-      }
-
-      if (m.steps) {
-        html += `<p class='mt-2'><strong>Steps:</strong></p>
-                 <pre id="steps-${m.steps.id}" class="bg-gray-100 p-2 rounded"></pre>`;
-      }
-
-      section.innerHTML = html;
-
-      // Append images
-      if (m.images && m.images.length > 0) {
-        m.images.forEach(imgFile => {
-          const img = document.createElement("img");
-          img.src = `https://drive.google.com/uc?export=view&id=${imgFile.id}`;
-          img.className = "mt-4 max-w-sm rounded block";
-          section.appendChild(img);
-        });
-      }
-
-      wrapper.appendChild(section);
-
-      // Load text
-      if (m.ingredients) loadText(m.ingredients.id, `ing-${m.ingredients.id}`);
-      if (m.steps) loadText(m.steps.id, `steps-${m.steps.id}`);
-    }
-
-    async function loadText(fileId, elementId) {
-      const file = await gapi.client.drive.files.get({ fileId, fields: "webContentLink" });
-      const downloadUrl = file.result.webContentLink.replace("&export=download", "");
-      const response = await fetch(downloadUrl);
-      const text = await response.text();
-      document.getElementById(elementId).textContent = text;
-    }
-
-    loadGapi();
-  </script>
+  r.images.forEach(id => {
+    const img = document.createElement("img");
+    img.src = `https://drive.google.com/uc?export=view&id=${id}`;
+    img.className = "mt-4 max-w-sm rounded";
+    d.appendChild(img);
+  });
+}
+</script>
 </body>
 </html>
-
