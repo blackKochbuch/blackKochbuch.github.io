@@ -1,0 +1,3 @@
+		Bring a large pot of salted water to a boil. Add the fettuccine and cook as the label directs. Drain, reserving about 1/2 cup cooking water.
+		Meanwhile, heat oil in a skillet over medium heat. Add the onion and garlic and a pinch of salt and cook, stirring occasionally, until lightly golden, about 3 minutes. Whisk the cream, egg yolk and lemon zest in a bowl. Reduce the heat to low and add the cream mixture and cheese to the skillet. Cook, whisking, until slightly thickened, about 2 minutes. Season with salt and 2 to 3 teaspoons pepper.
+		Add the pasta to the skillet and toss, adding enough of the reserved cooking water to loosen the sauce. garnish with parsley

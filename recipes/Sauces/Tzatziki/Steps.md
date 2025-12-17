@@ -1,0 +1,3 @@
+	•	Grate the cucumber using the largest holes on your cheese grater. Squeeze all the excess moisture out of the grated cucumber. You can squeeze it out using a nut milk bag, a kitchen towel, a cheese cloth, or just clean hands. This step will ensure a thicker dip. Alternatively, you can finely chop the cucumber. 
+	•	Add the yogurt to a large bowl, along with the grated cucumber, garlic, lemon juice, and dill, and season with salt. Stir well. 
+	•	Drizzle the olive oil over the dip for presentation and garnish with olives, if you like. Serve right away or store it in the refrigerator in a glass Tupperware. The dip should last up to 10 days. Enjoy! 

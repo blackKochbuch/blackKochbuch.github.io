@@ -1,167 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Black Familie Kochbuch</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
-  <style>
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      background-color: #e0f2fe;
-      color: #075985;
-      border-radius: 9999px;
-      padding: 6px 10px;
-      margin: 4px;
-      cursor: pointer;
-    }
-    .tag:hover { background-color: #bae6fd; }
-    .close-btn { margin-left: 8px; font-weight: bold; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Black Familie Kochbuch</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+<style>
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e0f2fe;
+  color: #075985;
+  border-radius: 9999px;
+  padding: 6px 10px;
+  margin: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.tag:hover { background-color: #bae6fd; }
+.tag .close-btn { margin-left: 8px; font-weight: bold; }
+</style>
 </head>
-
 <body class="bg-gray-100 min-h-screen p-6">
-  <h1 class="text-3xl font-bold mb-6">Black Familie Kochbuch</h1>
+<h1 class="text-3xl font-bold mb-6">Black Familie Kochbuch</h1>
 
-  <div class="mb-4">
-    <input id="keyword" type="text" placeholder="Enter keyword..." class="p-2 border rounded" />
-    <button onclick="addTag()" class="ml-2 px-4 py-2 bg-green-600 text-white rounded">Add</button>
-  </div>
+<div class="mb-4">
+  <input id="keyword" type="text" placeholder="Enter keyword..." class="p-2 border rounded" />
+  <button onclick="addTag()" class="ml-2 px-4 py-2 bg-green-600 text-white rounded">Add</button>
+</div>
 
-  <div id="tagContainer" class="flex flex-wrap mb-6"></div>
+<div id="tagContainer" class="flex flex-wrap mb-6"></div>
 
-  <button onclick="searchFiles()" class="px-4 py-2 bg-blue-600 text-white rounded">Search</button>
+<button onclick="searchFiles()" class="px-4 py-2 bg-blue-600 text-white rounded">Search</button>
 
-  <h2 class="text-2xl font-semibold mt-8">Results</h2>
-  <div id="results" class="mt-4 space-y-6"></div>
+<h2 class="text-2xl font-semibold mt-8">Results</h2>
+<div id="results" class="mt-4 space-y-6"></div>
 
 <script>
 let tags = [];
 let recipes = [];
-const RECIPES_JSON_ID = "1-lMSlgBPvCBmKB8GnCSWXn7r9WTsKTIF";
 
-// ---------- TAG UI ----------
+async function loadRecipes() {
+  if (recipes.length) return recipes;
+  const res = await fetch("recipes.json");
+  recipes = await res.json();
+  return recipes;
+}
+
 function addTag() {
   const input = document.getElementById("keyword");
-  if (!input.value.trim()) return;
-  tags.push(input.value.trim().toLowerCase());
+  const value = input.value.trim();
+  if (!value) return;
+  tags.push(value.toLowerCase());
   input.value = "";
   renderTags();
 }
 
+function removeTag(index) {
+  tags.splice(index, 1);
+  renderTags();
+}
+
 function renderTags() {
-  const c = document.getElementById("tagContainer");
-  c.innerHTML = "";
-  tags.forEach((t, i) => {
-    const s = document.createElement("span");
-    s.className = "tag";
-    s.innerHTML = `${t} <span class="close-btn">✕</span>`;
-    s.onclick = () => { tags.splice(i, 1); renderTags(); };
-    c.appendChild(s);
+  const container = document.getElementById("tagContainer");
+  container.innerHTML = "";
+  tags.forEach((tag, i) => {
+    const span = document.createElement("span");
+    span.className = "tag";
+    span.innerHTML = `${tag} <span class='close-btn'>✕</span>`;
+    span.onclick = () => removeTag(i);
+    container.appendChild(span);
   });
 }
 
-async function loadRecipesIndex() {
-  const url = `https://drive.google.com/uc?export=download&id=${RECIPES_JSON_ID}`;
-  const res = await fetch(url);
-  return res.json();
-}
-
-// ---------- SEARCH ----------
 async function searchFiles() {
   const results = document.getElementById("results");
-  results.textContent = "Searching…";
-
-  if (recipes.length === 0) {
-    recipes = await loadRecipesIndex();
-  }
-
+  results.innerHTML = "Searching...";
+  const allRecipes = await loadRecipes();
   const matches = [];
 
-  for (const r of recipes) {
+  for (const r of allRecipes) {
     let match = true;
-
     for (const tag of tags) {
-      const found =
-        r.name.toLowerCase().includes(tag) ||
-        await fileContains(r.ingredients, tag) ||
-        await fileContains(r.steps, tag);
-
+      const ingredientsText = await fetchText(r.folder, r.ingredients);
+      const stepsText = await fetchText(r.folder, r.steps);
+      const found = r.name.toLowerCase().includes(tag)
+                    || ingredientsText.toLowerCase().includes(tag)
+                    || stepsText.toLowerCase().includes(tag);
       if (!found) match = false;
     }
-
     if (match) matches.push(r);
   }
-
   renderResults(matches);
 }
 
-// ---------- FETCH HELPERS ----------
-async function fileContains(fileId, tag) {
-  if (!fileId) return false;
-  const text = await fetchText(fileId);
-  return text.toLowerCase().includes(tag);
-}
-
-async function fetchText(fileId) {
-  const url = `https://drive.google.com/uc?export=download&id=${fileId}`;
+async function fetchText(folder, filename) {
+  const url = `recipes/${folder}/${filename}`;
   const res = await fetch(url);
-  return res.text();
+  return await res.text();
 }
 
-// ---------- RENDER ----------
-function renderResults(matches) {
-  const c = document.getElementById("results");
-  c.innerHTML = "";
+async function renderResults(matches) {
+  const container = document.getElementById("results");
+  container.innerHTML = "";
+  if (!matches.length) { container.textContent = "No matches found."; return; }
 
-  if (!matches.length) {
-    c.textContent = "No matches found.";
-    return;
+  for (const r of matches) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "p-4 bg-white shadow rounded";
+
+    const title = document.createElement("h3");
+    title.className = "text-xl font-bold mb-2 cursor-pointer";
+    title.textContent = r.name;
+    title.onclick = () => toggleRecipe(r, wrapper);
+
+    wrapper.appendChild(title);
+    container.appendChild(wrapper);
   }
-
-  matches.forEach(r => {
-    const w = document.createElement("div");
-    w.className = "p-4 bg-white shadow rounded";
-
-    const h = document.createElement("h3");
-    h.className = "text-xl font-bold cursor-pointer";
-    h.textContent = r.name;
-    h.onclick = () => toggleRecipe(r, w);
-
-    w.appendChild(h);
-    c.appendChild(w);
-  });
 }
 
 async function toggleRecipe(r, wrapper) {
-  const existing = wrapper.querySelector(".recipe-content");
-  if (existing) return existing.remove();
+  const existing = wrapper.querySelector('.recipe-content');
+  if (existing) { existing.remove(); return; }
 
-  const d = document.createElement("div");
-  d.className = "recipe-content mt-4";
+  const section = document.createElement("div");
+  section.className = "recipe-content mt-4";
 
-  d.innerHTML = `
-    <a class="text-blue-600 underline" target="_blank"
-       href="https://drive.google.com/drive/folders/${r.folderId}">
-      Open folder in Drive
-    </a>
+  let html = `<p><strong>Ingredients:</strong></p><pre class="bg-gray-100 p-2 rounded" id="ing-${r.folder}"></pre>`;
+  html += `<p class="mt-2"><strong>Steps:</strong></p><pre class="bg-gray-100 p-2 rounded" id="steps-${r.folder}"></pre>`;
+  section.innerHTML = html;
 
-    ${r.ingredients ? `<h4 class="mt-4 font-bold">Ingredients</h4><pre class="bg-gray-100 p-2 rounded" id="ing"></pre>` : ""}
-    ${r.steps ? `<h4 class="mt-4 font-bold">Steps</h4><pre class="bg-gray-100 p-2 rounded" id="steps"></pre>` : ""}
-  `;
+  wrapper.appendChild(section);
 
-  wrapper.appendChild(d);
+  document.getElementById(`ing-${r.folder}`).textContent = await fetchText(r.folder, r.ingredients);
+  document.getElementById(`steps-${r.folder}`).textContent = await fetchText(r.folder, r.steps);
 
-  if (r.ingredients) document.getElementById("ing").textContent = await fetchText(r.ingredients);
-  if (r.steps) document.getElementById("steps").textContent = await fetchText(r.steps);
-
-  r.images.forEach(id => {
-    const img = document.createElement("img");
-    img.src = `https://drive.google.com/uc?export=view&id=${id}`;
-    img.className = "mt-4 max-w-sm rounded";
-    d.appendChild(img);
-  });
+  if (r.images && r.images.length) {
+    r.images.forEach(imgFile => {
+      const img = document.createElement("img");
+      img.src = `recipes/${r.folder}/${imgFile}`;
+      img.className = "mt-4 max-w-sm rounded block";
+      section.appendChild(img);
+    });
+  }
 }
 </script>
 </body>

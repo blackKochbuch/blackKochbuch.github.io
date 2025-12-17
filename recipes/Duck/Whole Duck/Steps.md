@@ -1,0 +1,5 @@
+	.	Preheat oven to 180°C (350°F). 
+	.	Remove duck from the refrigerator about 20 minutes before cooking to ensure uniformed cooking. Remove duck from packaging and take out the neck and giblets from the cavity. Rinse under cold running water both inside and out, then pat dry using paper towel to get a more crispy skin. 
+	.	Season. Cover the wings and legs with aluminium foil to avoid them from drying while cooking. Place the duck in a Dutch oven breast side up. Place a mixture of vegetables (carrots, onion, garlic, celery coarsely chopped) and a bouquet garni (thyme, parsley, juniper berries, peppercorns, cloves, bay leaf) in the cavity of the bird. 
+	.	Cover and roast in oven for 2 hours. 
+	.	Remove the aluminium foil and continue cooking uncover for 30 to 40 minutes to make the skin crispy and brown. When the duck is fully cooked the internal temperature at the junction of the leg and thigh should be 82°C (180°F) and thighs should come apart easily. Calculate about 60 min/kg. Let the duck rest, covered with a sheet of aluminium foil for about 10 to 15 minutes in order to tenderize the meat. 

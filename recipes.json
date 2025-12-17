@@ -1,0 +1,1016 @@
+[
+  {
+    "name": "Baba Ghanoush",
+    "folder": "Appetizer/Baba Ghanoush",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Baked Cranberry Bites",
+    "folder": "Appetizer/Baked Cranberry Bites",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Bruschetta",
+    "folder": "Appetizer/Bruschetta",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Spanakopita",
+    "folder": "Appetizer/Spanakopita",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Anna_s Bread",
+    "folder": "Baking/Anna_s Bread",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Apfeltaschen",
+    "folder": "Baking/Apfeltaschen",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Apfeltaschen.png"
+    ]
+  },
+  {
+    "name": "Apple Cake",
+    "folder": "Baking/Apple Cake",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Baked Cranberry Brie Bites",
+    "folder": "Baking/Baked Cranberry Brie Bites",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "BakedCranberryBrie.png"
+    ]
+  },
+  {
+    "name": "Brown Butter Bananarama Cookies",
+    "folder": "Baking/Brown Butter Bananarama Cookies",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Brown Butter Tiramisu Brownies",
+    "folder": "Baking/Brown Butter Tiramisu Brownies",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "BrownButterTiramisu.png"
+    ]
+  },
+  {
+    "name": "Chocolate Pie",
+    "folder": "Baking/Chocolate Pie",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "ChocolatePie.png"
+    ]
+  },
+  {
+    "name": "Cinnamon Rolls",
+    "folder": "Baking/Cinnamon Rolls",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Cornbread Muffins",
+    "folder": "Baking/Cornbread Muffins",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Crepes",
+    "folder": "Baking/Crepes",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Golden Berry Torte",
+    "folder": "Baking/Golden Berry Torte",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "GooseberryTorte.jpg"
+    ]
+  },
+  {
+    "name": "Julian_s Donuts",
+    "folder": "Baking/Julian_s Donuts",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Donuts.jpg"
+    ]
+  },
+  {
+    "name": "KFC Biscuits",
+    "folder": "Baking/KFC Biscuits",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Naan",
+    "folder": "Baking/Naan",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Normal Dough",
+    "folder": "Baking/Pizza/Normal Dough",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Pizza Sauce",
+    "folder": "Baking/Pizza/Pizza Sauce",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Sourdough",
+    "folder": "Baking/Pizza/Sourdough",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Pumpkin Pie",
+    "folder": "Baking/Pumpkin Pie",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Rita_s Muesli",
+    "folder": "Baking/Rita_s Muesli",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Muesli.jpg"
+    ]
+  },
+  {
+    "name": "Sachertorte",
+    "folder": "Baking/Sachertorte",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Tiramisu",
+    "folder": "Baking/Tiramisu",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Zimtsterne",
+    "folder": "Baking/Zimtsterne",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": [
+      "Zimtsterne.png"
+    ]
+  },
+  {
+    "name": "Beef-abobs",
+    "folder": "Beef/Beef-abobs",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Boeuf Bouguignon",
+    "folder": "Beef/Boeuf Bouguignon",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic.jpg"
+    ]
+  },
+  {
+    "name": "Chermoula Sauce",
+    "folder": "Beef/Chermoula Sauce",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "grilled",
+    "folder": "Beef/grilled",
+    "ingredients": null,
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Hamburger",
+    "folder": "Beef/Hamburger",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic2.jpg"
+    ]
+  },
+  {
+    "name": "Lahanodolmathes (Greek cabbage rolls))",
+    "folder": "Beef/Lahanodolmathes (Greek cabbage rolls))",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Minced Beef Bok Choy",
+    "folder": "Beef/Minced Beef Bok Choy",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic.jpg"
+    ]
+  },
+  {
+    "name": "Pimiento, mushroom noodels",
+    "folder": "Beef/Pimiento, mushroom noodels",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic4.jpg"
+    ]
+  },
+  {
+    "name": "Rouladen",
+    "folder": "Beef/Rouladen",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2023-10-31at82357PM.png",
+      "Screenshot2023-10-31at82508PM.png"
+    ]
+  },
+  {
+    "name": "veal piccata",
+    "folder": "Beef/veal piccata",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "veal tenderloin",
+    "folder": "Beef/veal tenderloin",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Brie and Pear filled Chickenbreast",
+    "folder": "Chicken/Brie and Pear filled Chickenbreast",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-05-02at71910PM.png"
+    ]
+  },
+  {
+    "name": "Broccolie Stir fry",
+    "folder": "Chicken/Broccolie Stir fry",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Chicken Satay",
+    "folder": "Chicken/Chicken Satay",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Crispy Poblano Chicken Tacos",
+    "folder": "Chicken/Crispy Poblano Chicken Tacos",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-08-30at13646PM.png"
+    ]
+  },
+  {
+    "name": "Honey mustard bbq chicken",
+    "folder": "Chicken/Honey mustard bbq chicken",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "ScreenShot2023-05-29at12644PM.png"
+    ]
+  },
+  {
+    "name": "Lettuce wraps",
+    "folder": "Chicken/Lettuce wraps",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Mayo Käse chicken",
+    "folder": "Chicken/Mayo Käse chicken",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Moroccan Chicken Couscous",
+    "folder": "Chicken/Moroccan Chicken Couscous",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic.jpg",
+      "PastedGraphic1.jpg"
+    ]
+  },
+  {
+    "name": "One pan tuscan chicken",
+    "folder": "Chicken/One pan tuscan chicken",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "ScreenShot2022-10-08at12048PM.png"
+    ]
+  },
+  {
+    "name": "Orange Chicken with Lemon Rice",
+    "folder": "Chicken/Orange Chicken with Lemon Rice",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-01-22at22401PM.png"
+    ]
+  },
+  {
+    "name": "Red Curry",
+    "folder": "Chicken/Red Curry",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic5.jpg"
+    ]
+  },
+  {
+    "name": "Spätzle with creamy chicken mushroom",
+    "folder": "Chicken/Spätzle with creamy chicken mushroom",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic2.jpg"
+    ]
+  },
+  {
+    "name": "Teriyaki Chicken",
+    "folder": "Chicken/Teriyaki Chicken",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic4.jpg"
+    ]
+  },
+  {
+    "name": "Yellow curry",
+    "folder": "Chicken/Yellow curry",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Couscous",
+    "folder": "Couscous",
+    "ingredients": null,
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Gluehwein",
+    "folder": "Drinks/Gluehwein",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Gluehwein.png"
+    ]
+  },
+  {
+    "name": "Duck breast",
+    "folder": "Duck/Duck breast",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic5.jpg"
+    ]
+  },
+  {
+    "name": "Whole Duck",
+    "folder": "Duck/Whole Duck",
+    "ingredients": null,
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Baked Cod with Lemon and Garlic",
+    "folder": "Fish/Baked Cod with Lemon and Garlic",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Broccoli Cod",
+    "folder": "Fish/Broccoli Cod",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "BroccoliCod.jpg"
+    ]
+  },
+  {
+    "name": "Ceviche Recipe",
+    "folder": "Fish/Ceviche Recipe",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Cod Sicili",
+    "folder": "Fish/Cod Sicili",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Cod with Mango Salsa",
+    "folder": "Fish/Cod with Mango Salsa",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "CodMangoSalsa.jpg"
+    ]
+  },
+  {
+    "name": "grilled salmon",
+    "folder": "Fish/grilled salmon",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Kale Tilapia",
+    "folder": "Fish/Kale Tilapia",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic6.jpg"
+    ]
+  },
+  {
+    "name": "Lemon Dill Sauce",
+    "folder": "Fish/Lemon Dill Sauce",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "mackerel, mediterranean oven roasted spanish",
+    "folder": "Fish/mackerel, mediterranean oven roasted spanish",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Maple Glaze Steelhead Trout",
+    "folder": "Fish/Maple Glaze Steelhead Trout",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Pepper, Ginger, Basil Cod",
+    "folder": "Fish/Pepper, Ginger, Basil Cod",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic1.jpg"
+    ]
+  },
+  {
+    "name": "Salmon cake burger",
+    "folder": "Fish/Salmon cake burger",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Salmon Chimichurri",
+    "folder": "Fish/Salmon Chimichurri",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2025-02-02at93320AM.png"
+    ]
+  },
+  {
+    "name": "Salmon Wellington",
+    "folder": "Fish/Salmon Wellington",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic.jpg",
+      "PastedGraphic1.jpg"
+    ]
+  },
+  {
+    "name": "Seafood Lasagna",
+    "folder": "Fish/Seafood Lasagna",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic1.jpg",
+      "trdJI1maR1OtdrszxZq4g_thumb_412f.jpg"
+    ]
+  },
+  {
+    "name": "Snapper curry",
+    "folder": "Fish/Snapper curry",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-04-24at90746AM.png"
+    ]
+  },
+  {
+    "name": "Tuna",
+    "folder": "Fish/Tuna",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "ScreenShot2022-03-26at92845PM.png"
+    ]
+  },
+  {
+    "name": "Best Vegetarian Lasagna",
+    "folder": "Pasta/Best Vegetarian Lasagna",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Chow Mein",
+    "folder": "Pasta/Chow Mein",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Fennel Pasta",
+    "folder": "Pasta/Fennel Pasta",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2025-11-13at12218PM.png"
+    ]
+  },
+  {
+    "name": "Lasagna",
+    "folder": "Pasta/Lasagna",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Pasta Primavera",
+    "folder": "Pasta/Pasta Primavera",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic.jpg"
+    ]
+  },
+  {
+    "name": "Pepper noodles with calamari",
+    "folder": "Pasta/Pepper noodles with calamari",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "IMG-20210222-WA0009.jpg"
+    ]
+  },
+  {
+    "name": "Puglia Spaghetti",
+    "folder": "Pasta/Puglia Spaghetti",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-10-02at53813PM.png"
+    ]
+  },
+  {
+    "name": "sausage noodles",
+    "folder": "Pasta/sausage noodles",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic3.jpg"
+    ]
+  },
+  {
+    "name": "Scallop Linguine",
+    "folder": "Pasta/Scallop Linguine",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic1.jpg"
+    ]
+  },
+  {
+    "name": "Spaghetti",
+    "folder": "Pasta/Spaghetti",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic3.jpg"
+    ]
+  },
+  {
+    "name": "Spaghetti as assassina",
+    "folder": "Pasta/Spaghetti as assassina",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": [
+      "Screenshot2024-08-31at80511AM.png"
+    ]
+  },
+  {
+    "name": "Tortellini salad",
+    "folder": "Pasta/Tortellini salad",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic2.jpg"
+    ]
+  },
+  {
+    "name": "9 Bean Soup",
+    "folder": "Pork/9 Bean Soup",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": []
+  },
+  {
+    "name": "AF Pork tenderloin",
+    "folder": "Pork/AF Pork tenderloin",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Asian Sticky Lime Pork Tenderloin with Garlic Bok Choy",
+    "folder": "Pork/Asian Sticky Lime Pork Tenderloin with Garlic Bok Choy",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "ScreenShot2023-05-06at63244PM.png"
+    ]
+  },
+  {
+    "name": "CROCK POT NORMANDY PORK WITH APPLES, SHALLOTS & CIDER",
+    "folder": "Pork/CROCK POT NORMANDY PORK WITH APPLES, SHALLOTS & CIDER",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Greek Pork Souvlaki",
+    "folder": "Pork/Greek Pork Souvlaki",
+    "ingredients": "ingredients.md",
+    "steps": "steps.md",
+    "images": [
+      "Screenshot2025-07-21at104217AM.png"
+    ]
+  },
+  {
+    "name": "Okra pork",
+    "folder": "Pork/Okra pork",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2025-12-07at83458AM.png"
+    ]
+  },
+  {
+    "name": "pork tenderloin",
+    "folder": "Pork/pork tenderloin",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic2.jpg"
+    ]
+  },
+  {
+    "name": "Pork tenderloin-1",
+    "folder": "Pork/Pork tenderloin-1",
+    "ingredients": null,
+    "steps": "steps.md",
+    "images": [
+      "Screenshot2024-01-29at11530PM.png"
+    ]
+  },
+  {
+    "name": "sausage noodles",
+    "folder": "Pork/sausage noodles",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic3.jpg"
+    ]
+  },
+  {
+    "name": "sweet and sour ribs",
+    "folder": "Pork/sweet and sour ribs",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic3.jpg"
+    ]
+  },
+  {
+    "name": "Avocado Lachs Creme",
+    "folder": "Potatoes/Avocado Lachs Creme",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2025-01-01at91556AM.png"
+    ]
+  },
+  {
+    "name": "Potato Waffles",
+    "folder": "Potatoes/Potato Waffles",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-07-29at74636PM.png"
+    ]
+  },
+  {
+    "name": "Coconut Rice",
+    "folder": "Rice/Coconut Rice",
+    "ingredients": null,
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "non stir risotto",
+    "folder": "Rice/non stir risotto",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Persian Dill Rice",
+    "folder": "Rice/Persian Dill Rice",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "risotto",
+    "folder": "Rice/risotto",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": []
+  },
+  {
+    "name": "Avocado shrimp salad",
+    "folder": "Salads/Avocado shrimp salad",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-04-27at30149PM.png"
+    ]
+  },
+  {
+    "name": "corn, feta salad",
+    "folder": "Salads/corn, feta salad",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-08-08at20524PM.png"
+    ]
+  },
+  {
+    "name": "Salad wraps",
+    "folder": "Salads/Salad wraps",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Thai inspired",
+    "folder": "Salads/Thai inspired",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Tomato salad",
+    "folder": "Salads/Tomato salad",
+    "ingredients": null,
+    "steps": "steps.md",
+    "images": [
+      "PastedGraphic9.jpg"
+    ]
+  },
+  {
+    "name": "Cranberry sauce",
+    "folder": "Sauces/Cranberry sauce",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Kashka bademjan",
+    "folder": "Sauces/Kashka bademjan",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Peanut Sauce",
+    "folder": "Sauces/Peanut Sauce",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Tzatziki",
+    "folder": "Sauces/Tzatziki",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "French Onion",
+    "folder": "Soup/French Onion",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Whole Turkey",
+    "folder": "Turkey/Whole Turkey",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Asparagus",
+    "folder": "Veggies/Asparagus",
+    "ingredients": null,
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Baked Vegetarian Jalapeño Poppers",
+    "folder": "Veggies/Baked Vegetarian Jalapeño Poppers",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": [
+      "jalapeno-poppers-11-650x434jpg.png",
+      "jalapeno-poppers-7-650x424jpg.png"
+    ]
+  },
+  {
+    "name": "broccolini",
+    "folder": "Veggies/broccolini",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "IMG-20210222-WA0009.jpg"
+    ]
+  },
+  {
+    "name": "Chestnuts",
+    "folder": "Veggies/Chestnuts",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "PastedGraphic6.jpg"
+    ]
+  },
+  {
+    "name": "Crunchy parmesan potato wedges",
+    "folder": "Veggies/Crunchy parmesan potato wedges",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "half scallopped potatoes",
+    "folder": "Veggies/half scallopped potatoes",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": [
+      "ScreenShot2022-03-29at60051PM.png",
+      "ScreenShot2022-03-29at60215PM.png"
+    ]
+  },
+  {
+    "name": "Honey glazed carrots",
+    "folder": "Veggies/Honey glazed carrots",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2025-04-07at44543PM.png"
+    ]
+  },
+  {
+    "name": "mushroom sandwich",
+    "folder": "Veggies/mushroom sandwich",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-08-08at21244PM.png"
+    ]
+  },
+  {
+    "name": "Mushrooms",
+    "folder": "Veggies/Mushrooms",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "ScreenShot2022-04-06at21017PM.png"
+    ]
+  },
+  {
+    "name": "Parmesan Potatoes",
+    "folder": "Veggies/Parmesan Potatoes",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": []
+  },
+  {
+    "name": "plantain casserole",
+    "folder": "Veggies/plantain casserole",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "Potato gratin",
+    "folder": "Veggies/Potato gratin",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": []
+  },
+  {
+    "name": "red beets",
+    "folder": "Veggies/red beets",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": [
+      "PastedGraphic.png"
+    ]
+  },
+  {
+    "name": "Sweet potato with Pecan Feta Date Crumble",
+    "folder": "Veggies/Sweet potato with Pecan Feta Date Crumble",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Screenshot2024-05-20at72541PM.png"
+    ]
+  },
+  {
+    "name": "Wachsbohnen",
+    "folder": "Veggies/Wachsbohnen",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": []
+  }
+]

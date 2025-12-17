@@ -1,0 +1,10 @@
+Directions
+Instructions Checklist
+		 Step 1Preheat oven to 325 degrees F (165 degrees C).   
+		 Step 2Place onion, celery, and carrot in a large, shallow roasting pan.   
+		 Step 3Place turkey, breast side up, on top of the vegetables in the roasting pan. Pat the outside and inside of the turkey dry with paper towels.   
+		 Step 4Combine salt, black pepper and cayenne pepper in a small bowl. Season the inside of the turkey with about 1/3 of the salt mixture. Fold wing tips under the bird.   
+		 Step 5Melt butter in small saucepan over medium heat until the edges begin to turn golden, about 2 minutes. Cook and stir rosemary and sage for 1 minute.   
+		 Step 6Place rosemary and sage inside the cavity of the turkey; reserve melted butter. Tie the legs together with twine.   
+		 Step 7Brush outside of the turkey completely with the melted butter. Season with remaining 2/3 of the salt mixture.   
+		 Step 8Bake turkey, uncovered, in the preheated oven until no longer pink at the bone and the juices run clear, about 5 hours. An instant-read thermometer inserted into the thickest part of the thigh, near the bone should read 180 degrees F (82 degrees C). Remove the turkey from the oven and allow to rest in a warm area 10 to 15 minutes before slicing.   

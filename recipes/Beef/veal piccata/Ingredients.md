@@ -1,0 +1,34 @@
+
+
+
+Extra-virgin olive oil
+
+
+3 cloves garlic, smashed
+
+
+8 bottom or top round veal scallops, flattened gently with a meat mallet
+
+
+salt
+
+
+1 cup flour
+
+
+1/2 cup white wine
+
+
+1/4 cup capers
+
+
+1/2 cup chicken stock
+
+
+1/2 stick butter (1/4 cup)
+
+
+2 lemons, juiced
+
+
+1/4 cup finely chopped fresh Italian parsley

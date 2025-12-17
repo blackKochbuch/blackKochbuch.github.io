@@ -1,0 +1,8 @@
+Instructions
+﻿﻿﻿Make the salsa. Add the avocado, jalapeño, water, cilantro, vinegar and salt to a food processor and blend until smooth. Cover and keep the salsa stored in the refrigerator until you're ready to serve.
+﻿﻿﻿Cook the chicken. Turn the oven on to 400 degrees and spray a baking dish with cooking spray.
+Add the chicken thighs, olive oil, chili powder, cumin, smoked paprika, salt, black pepper, garlic, cilantro, poblano peppers and onion to a large bowl and toss until fully coated. Arrange the chicken and veggies in your prepared dish (making sure everything is spread out). Bake for 20-22 minutes or until the chicken is cooked through and the veggies are tender. (The internal temperature of the chicken should be 165 degrees.)
+Once done, use 2 large forks to shred the chicken and mix the shredded chicken and veggies together in the dish.
+﻿﻿﻿Assemble the tacos. Turn your oven up to 425 degrees and line a large baking pan with parchment paper. Lay your tortillas out on the pan and spray them with cooking spray. Flip them over and bake for 2-3 minutes. (We need them just soft enough to fold over your filling.) Once done, take the pan out of the oven and laver each tortilla on one side with cheese, your shredded chicken mixture and a little more cheese. Fold the other side of the tortilla over vour filling and press down gently to make it "stick."
+﻿﻿﻿Bake. Once all of your tacos are made, place the pan back in the oven and bake for 15-17 minutes or until the cheese has melted and your tortillas are crispy.
+﻿﻿﻿Serve! Serve immediately with your avocado- ¡alapeño salsa and eniov!

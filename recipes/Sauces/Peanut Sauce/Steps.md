@@ -1,0 +1,1 @@
+in a small bowl, stir together until texture is smooth and creamy.
