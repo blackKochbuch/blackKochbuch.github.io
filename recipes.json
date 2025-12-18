@@ -175,11 +175,29 @@
     ]
   },
   {
+    "name": "Rumkugeln",
+    "folder": "Baking/Rumkugeln",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "rumkugeln.png"
+    ]
+  },
+  {
     "name": "Sachertorte",
     "folder": "Baking/Sachertorte",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []
+  },
+  {
+    "name": "Spitzbuben Cookies",
+    "folder": "Baking/Spitzbuben Cookies",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Spitzbuben.png"
+    ]
   },
   {
     "name": "Tiramisu",
@@ -410,6 +428,69 @@
     "images": []
   },
   {
+    "name": "Blackberry Sorbet",
+    "folder": "Desserts/Blackberry Sorbet",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Amaretto Sour Cocktails",
+    "folder": "Drinks/Amaretto Sour Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Aperol Sour Cocktails",
+    "folder": "Drinks/Aperol Sour Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Blackberry Gin Cocktails",
+    "folder": "Drinks/Blackberry Gin Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Cosmopolitan Cocktails",
+    "folder": "Drinks/Cosmopolitan Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Dark Cherry Old Fashioned Cocktails",
+    "folder": "Drinks/Dark Cherry Old Fashioned Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Eggnog Martini Cocktails",
+    "folder": "Drinks/Eggnog Martini Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Espresso Martini Cocktails",
+    "folder": "Drinks/Espresso Martini Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Ginger Peach Margarita Cocktails",
+    "folder": "Drinks/Ginger Peach Margarita Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
     "name": "Gluehwein",
     "folder": "Drinks/Gluehwein",
     "ingredients": "Ingredients.md",
@@ -417,6 +498,34 @@
     "images": [
       "Gluehwein.png"
     ]
+  },
+  {
+    "name": "Japanese Plum Cocktails",
+    "folder": "Drinks/Japanese Plum Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Normandy Old Fashioned Cocktails",
+    "folder": "Drinks/Normandy Old Fashioned Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Spicy Margarita Cocktails",
+    "folder": "Drinks/Spicy Margarita Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
+  },
+  {
+    "name": "Vancouver CBD Cocktails",
+    "folder": "Drinks/Vancouver CBD Cocktails",
+    "ingredients": "Ingredients.md",
+    "steps": null,
+    "images": []
   },
   {
     "name": "Duck breast",
