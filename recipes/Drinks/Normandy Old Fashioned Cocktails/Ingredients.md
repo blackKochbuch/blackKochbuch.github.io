@@ -1,0 +1,8 @@
+- 1tbsp sugar
+- 1/4 tsp cinnamon 
+- 1/4 tsp cocoa powder
+- 1/8 tsp nutmeg
+- 1/8 cup boiling water (all of the above together as a syrup, then strain)
+- 1.5 oz VSOP Brandy
+- 1/2-3/4 oz scotch whiskey
+- 3 dashes Angostura bitters

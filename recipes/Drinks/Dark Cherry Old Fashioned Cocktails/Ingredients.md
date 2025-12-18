@@ -1,0 +1,6 @@
+- 1oz cognac
+- 1oz rum
+- 1/2oz cherry syrup
+- 5-6 dashes aromatic bitters
+- 1 maraschino cherry
+- Lemon oil

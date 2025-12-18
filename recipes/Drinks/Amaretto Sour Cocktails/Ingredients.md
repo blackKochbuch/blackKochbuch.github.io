@@ -1,0 +1,4 @@
+- 1.3oz amaretto
+- 1oz bourbon 
+- 0.7oz lemon juice
+- 0.7oz syrup (1 part water, 1 part maple syrup)

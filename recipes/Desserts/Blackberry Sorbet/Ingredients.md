@@ -1,0 +1,7 @@
+- 4 cups frozen blueberries 
+- 1/4 cup sugar
+- 1/4 cup honey
+- Small schwupps of lemon juice
+- Schwupps of maple syrup
+- Schwupps of orange juice
+- Pinch of salt

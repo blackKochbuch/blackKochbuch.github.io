@@ -1,0 +1,6 @@
+- 1.25oz vodka
+- 0.75oz triple sec / grand manier / Cointreau
+- 1.25oz cranberry juice
+- 0.5oz lemon juice
+- Pinch of salt
+- Sprudel

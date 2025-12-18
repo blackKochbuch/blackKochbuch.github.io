@@ -1,0 +1,5 @@
+- 2.5oz eggnog
+- 1oz vodka
+- 1oz amaretto
+- 0.2oz vanilla
+- Some cinnamon 

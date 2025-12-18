@@ -1,0 +1,7 @@
+- 1oz tequila
+- 1oz peach liquor 
+- A couple drops of hot sauce
+- 1oz lemon juice
+- 4/7oz maple syrup
+- Crushed ice
+- 1/3 can ginger ale

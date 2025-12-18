@@ -1,0 +1,10 @@
+- 200g Butter
+- 300g Weizenmehl (Type 405)
+- 1 Prise Salz
+- 100g gemahlene Mandeln (blanchiert)
+- 150g Zucker
+- 1 Pck. Vanillezucker
+- 2 Eier (Gr. M)
+- 200 g Johannisbeergelee (oder Erdbeer-, Himbeer-, etc.)
+- etwas Puderzucker zum Bestreuen
+- etwas Weizenmehl zur Teigverarbeitung

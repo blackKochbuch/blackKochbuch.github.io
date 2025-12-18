@@ -1,0 +1,5 @@
+- 1oz Choya 
+- 1oz Gin
+- 1/2oz Cassis
+- 1/2oz amaretto
+- Sprudel - replace with tonic water to add bitterness

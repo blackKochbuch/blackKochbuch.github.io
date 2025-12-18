@@ -1,0 +1,2 @@
+1. ​​​​​Zartbitterkschokolade grob hacken und über einem Wasserbad schmelzen. Kurz abkühlen lassen. Butter, Kakaopulver und Rum einrühren. Für 45 Minuten kalt stellen. (Ich musste viel laenger - eher 3 Stunden...)
+2. Schokostreusel auf einem tiefen Teller verteilen. Mit einem Löffel Schokomasse aus der Schüssel abnehmen und mit den Händen kleine Kugeln rollen. Die Kugeln direkt in den Schokostreuseln wälzen. In einen Behälter legen und kaltstellen.

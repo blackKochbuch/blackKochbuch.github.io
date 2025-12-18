@@ -1,0 +1,4 @@
+- 2oz Vodka 
+- 0.5oz Kahlua
+- 1oz Espresso
+- 1/4oz Simple syrup or 1/2oz maple syrup
