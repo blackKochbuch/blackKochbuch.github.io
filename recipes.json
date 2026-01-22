@@ -115,6 +115,15 @@
     ]
   },
   {
+    "name": "Gougeres",
+    "folder": "Baking/Gougeres",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "gougeres.png"
+    ]
+  },
+  {
     "name": "Julians Donuts",
     "folder": "Baking/Julians Donuts",
     "ingredients": "Ingredients.md",
