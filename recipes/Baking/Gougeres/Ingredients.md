@@ -1,0 +1,9 @@
+- 1/2 cup water
+- 1/2 cup milk
+- 1 stick (4 ounces) unsalted butter, cut into tablespoons
+- Large pinch of coarse salt
+- 1 cup all-purpose flour
+- 4 large eggs
+- 3 1/2 ounces shredded Gruyère cheese (1 cup), plus more for sprinkling
+- Freshly ground black pepper
+- Freshly grated nutmeg
