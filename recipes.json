@@ -232,6 +232,15 @@
     "images": []
   },
   {
+    "name": "Birria Quesedillas",
+    "folder": "Beef/Birria Quesedillas",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "Birriadilla.jpg"
+    ]
+  },
+  {
     "name": "Boeuf Bouguignon",
     "folder": "Beef/Boeuf Bouguignon",
     "ingredients": "Ingredients.md",
@@ -442,6 +451,15 @@
     "ingredients": "Ingredients.md",
     "steps": null,
     "images": []
+  },
+  {
+    "name": "Brownies",
+    "folder": "Desserts/Brownies",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "brownies.jpg"
+    ]
   },
   {
     "name": "Amaretto Sour Cocktails",
