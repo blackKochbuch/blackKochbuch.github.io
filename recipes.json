@@ -106,6 +106,16 @@
     "images": []
   },
   {
+    "name": "Focaccia",
+    "folder": "Baking/Focaccia",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "focaccia.jpg",
+      "focacciaDinner.jpg"
+    ]
+  },
+  {
     "name": "Golden Berry Torte",
     "folder": "Baking/Golden Berry Torte",
     "ingredients": "Ingredients.md",
