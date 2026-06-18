@@ -235,6 +235,15 @@
     ]
   },
   {
+    "name": "Beef Arayes",
+    "folder": "Beef/Beef Arayes",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "arayes.jpg"
+    ]
+  },
+  {
     "name": "Beef-abobs",
     "folder": "Beef/Beef-abobs",
     "ingredients": "Ingredients.md",
@@ -1121,8 +1130,8 @@
     "images": []
   },
   {
-    "name": "Plantain Casserole",
-    "folder": "Veggies/Plantain Casserole",
+    "name": "Plantain casserole",
+    "folder": "Veggies/Plantain casserole",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []

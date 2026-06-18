@@ -1,0 +1,12 @@
+- 3lbs ground beef
+- 2 bunches of parsley
+- 4 garlic cloves
+- 1/2 white onion
+- 2 jalapenos
+- 3 tbsp cumin
+- 3 tbsp sumac
+- 3 tbsp aleppo pepper
+- 4 tbsp paprika
+- 3 tbsp salt
+- 3 tbsp pepper
+- 4 tbsp Bear and Burtons W Sauce (substitute this with Worcestershire sauce, a bit of brown sugar, and some hot sauce and/or ketchup)
