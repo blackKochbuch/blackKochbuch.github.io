@@ -1,0 +1,7 @@
+1. Add olive oil to a skillet over medium heat. Add the onion, bell peppers and garlic and cook until onion is translucent. Add chopped tomato, bay leaf, paprika, saffron salt and pepper. Stir and cook for 5 minutes. Add white wine and cook for 10 minutes. Taste and add salt if needed.
+2. Add chicken pieces, 2 tablespoons chopped parsley and rice to the pot. Cook for 1 minute.
+3. Pour the broth slowly all around the pan and jiggle the pan to get the rice into an even layer. (Do not stir the mixture going forward!).
+Bring mixture to a boil. Reduce heat to medium low. Give the pan a gentle shake back and forth just once or twice during cooking. (We don't ever stir the rice, so that a crispy crust forms at the bottom, called a socarrat).
+4. Cook for about 15-18 minutes (uncovered), then nestle the shrimp, mussels and calamari into the mixture, sprinkle peas on top and continue to cook (without stirring) for about 5 more minutes. Watch for most of the liquid to be absorbed and the rice at the top nearly tender. (If for some reason your rice is still not cooked, add ¼ cup more water or broth and continue cooking).
+5. Remove pan from heat and cover pan with a lid or tinfoil. Place a kitchen towel over the lid and allow to rest for 10 minutes.
+6. Garnish with fresh parsley and lemon slices. Serve.

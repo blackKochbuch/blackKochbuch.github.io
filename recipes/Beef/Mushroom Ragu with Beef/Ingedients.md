@@ -1,0 +1,16 @@
+Ingredients
+- 1 serving of ground beef (like a small freezer ziploc bag full)
+- 6-8 portobello mushrooms or others 
+- 1/2 an onion
+- Some celery
+- 2 big carrots
+- Olive oil
+- Fresh rosemary (1 packet)
+- Fresh sage (1 packet)
+- Salt (to taste)
+- Pepper (to taste)
+- Oregano or Italian seasoning (to taste)
+- Tomato paste (half a small can ish)
+- White wine (a good splash)
+- Beef stock (1tsp of the powder)
+- Whipping cream (a solid splash)

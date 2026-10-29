@@ -308,6 +308,16 @@
     ]
   },
   {
+    "name": "Mushroom Ragu with Beef",
+    "folder": "Beef/Mushroom Ragu with Beef",
+    "ingredients": null,
+    "steps": "Steps.md",
+    "images": [
+      "lasagna.jpg",
+      "pasta.jpg"
+    ]
+  },
+  {
     "name": "Pimiento Mushroom Noodles",
     "folder": "Beef/Pimiento Mushroom Noodles",
     "ingredients": "Ingredients.md",
@@ -947,6 +957,15 @@
     "images": []
   },
   {
+    "name": "Paella",
+    "folder": "Rice/Paella",
+    "ingredients": "Ingredients.md",
+    "steps": "steps.md",
+    "images": [
+      "paella.jpg"
+    ]
+  },
+  {
     "name": "Persian Dill Rice",
     "folder": "Rice/Persian Dill Rice",
     "ingredients": "Ingredients.md",
@@ -1130,8 +1149,8 @@
     "images": []
   },
   {
-    "name": "Plantain casserole",
-    "folder": "Veggies/Plantain casserole",
+    "name": "Plantain Casserole",
+    "folder": "Veggies/Plantain Casserole",
     "ingredients": "Ingredients.md",
     "steps": "Steps.md",
     "images": []

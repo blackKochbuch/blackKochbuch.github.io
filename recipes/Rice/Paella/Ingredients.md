@@ -1,0 +1,21 @@
+From [this recipe](https://tastesbetterfromscratch.com/paella/#wprm-recipe-container-28045)
+
+- 1/4 cup Extra virgin olive Oil
+- 1 Onion, diced
+- 1 bell pepper, diced
+- 4 cloves Garlic
+- 3 roma tomatoes, very finely diced
+- Bay leaf
+- 1 teaspoon paprika, sweet or smoked
+- 1 pinch saffron threads*
+- Salt and pepper
+- 1/4 cup white wine
+- 4 boneless, skinless chicken thighs, cut into pieces
+- 1/4 cup fresh chopped parsley, chopped, divided
+- 2 cups Spanish Rice (paella rice - bomba or calrose or similar; not arborio) 
+- 5 cups Chicken Broth
+- 1/2 cup frozen peas
+- 1/2 lb Jumbo Shrimp or prawns, about 12 – peeled, tail on
+- 1/2 lb Mussels , (about 10-12), cleaned properly (beards off)
+- 8 oz calamari rings
+- Lemons, for garnish
