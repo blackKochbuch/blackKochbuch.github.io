@@ -730,6 +730,15 @@
     ]
   },
   {
+    "name": "Spicy Prawn Pasta",
+    "folder": "Fish/Spicy Prawn Pasta",
+    "ingredients": "Ingredients.md",
+    "steps": "Steps.md",
+    "images": [
+      "pasta.jpg"
+    ]
+  },
+  {
     "name": "Tuna",
     "folder": "Fish/Tuna",
     "ingredients": "Ingredients.md",

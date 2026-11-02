@@ -1,0 +1,15 @@
+- Prawns
+- Sundried tomatoes
+- Capers
+- 1 clove garlic
+- 1 jalapeno
+- Olive oil
+- Tomato paste
+- Whipping cream
+- Spoon of flour
+- White wine
+- Salt 
+- Paper
+- Fresh basil
+- Freshly graded parmesan
+- Kalamata olives if desired 
